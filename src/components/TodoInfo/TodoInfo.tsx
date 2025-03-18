@@ -14,7 +14,6 @@ export const TodoInfo: React.FC<Props> = ({ todo }) => {
   return (
     <article
       data-id={id}
-      key={id}
       className={cn('TodoInfo ', {
         'TodoInfo--completed': completed,
       })}
